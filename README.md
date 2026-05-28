@@ -13,7 +13,7 @@
 
 ## Использование GigaCode
 
-Я установил AWS Cli, GigaCode и написал промты как в задании. В консоли проверил их выполнение.
+Я установил AWS Cli, GigaCode и написал промпты как в задании. В консоли проверил их выполнение.
 
 [![image.png](https://i.postimg.cc/c1jhQ9TG/image.png)](https://postimg.cc/vDr5yvp0)
 
@@ -21,7 +21,7 @@
 
 
 ## Самостоятельная работа.
-#### Ролевой промт:
+#### Ролевой промпт:
 ```text
 Ты senior backend-разработчик на Python и специалист по S3 Object Storage в Yandex Cloud.
 
@@ -53,7 +53,7 @@
 
 Я создал файлы и установил зависимости.
 
-#### Zero-shot промт
+#### Zero-shot промпт
 
 ```text
 Сгенерируй файл main.py для FastAPI-сервиса работы с Yandex Object Storage.
@@ -72,7 +72,7 @@
 
 Полученный код был вставлен в файл main.py
 
-#### One-shot промт
+#### One-shot промпт
 
 ```python
 Создай файл s3_client.py для подключения к Yandex Object Storage через boto3.
@@ -145,7 +145,7 @@ def generate_presign_url(filename, expiration=3600):
         return None
 ```
 
-#### Few-shot промт
+#### Few-shot промпт
 
 ```text
 Доработай код FastAPI-сервиса для S3, используя несколько примеров операций boto3.Пример 1 — список файлов:```pythonresponse = s3.list_objects_v2(Bucket=bucket_name)files = response.get("Contents", [])
@@ -172,7 +172,7 @@ url = s3.generate_presigned_url(    "get_object",    Params={"Bucket": bucket_na
 
 Модель обновила код s3_client.py и он был помещен в файл s3_client.py.
 
-#### Промт на создание Readme
+#### промпт на создание Readme
 
 ```text
 Создай README.md для проекта FastAPI + Yandex Object Storage.
