@@ -194,5 +194,7 @@ url = s3.generate_presigned_url(    "get_object",    Params={"Bucket": bucket_na
 
 ## Результат выполенения программы:
 Модель смогла написать правильный код.
-![[Pasted image 20260528203235.png]]
-![[Pasted image 20260528203249.png]]
+
+[![image.png](https://i.postimg.cc/Dz8dJ1sg/image.png)](https://postimg.cc/v1w6Cg0g)
+
+[![image.png](https://i.postimg.cc/KjynHVW7/image.png)](https://postimg.cc/G8q8BMd9)
